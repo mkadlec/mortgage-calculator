@@ -14,4 +14,5 @@ begin
   months += 1
 end while current_principal > 0
 
-puts months
+puts "Months to payoff: #{months}"
+puts "Years to payoff: #{months/12}"
